@@ -5,6 +5,10 @@
   <title>Yodlr Admin Page</title>
 </head>
 <body>
-  List user data here
+  <ul>
+  {% for user in users %}
+    <li>{{user}}</li>
+  {% endfor %}
+  </ul>
 </body>
 </html>
